@@ -1,126 +1,66 @@
 # Sapna Kumari - Portfolio Website
 
-A modern, responsive portfolio website for Sapna Kumari, an aspiring Marketing & Sales Professional.
+Welcome to the official repository for **Sapna Kumari's Personal Portfolio**. This website showcases my journey as an aspiring Marketing & Sales Professional, highlighting my education, skills, and creative work.
 
-## Features
+![Portfolio Preview](assets/profile-pic.png)
 
-- **Fully Responsive** - Works on all devices (desktop, tablet, mobile)
-- **Modern UI/UX** - Clean and professional design with smooth animations
-- **Sections**
-  - Hero section with call-to-action buttons
-  - About section with personal information
-  - Education timeline
-  - Work experience
-  - Skills with progress bars
-  - Services offered
-  - Portfolio/Projects gallery
-  - Testimonials
-  - Contact form
-  - Footer with social links
+## 🌟 Features
 
-## Technologies Used
+- **Responsive Design**: customized for a seamless experience on Desktops, Tablets, and Mobile devices.
+- **Interactive UI**: Smooth scrolling, hover effects, and animated elements.
+- **Dynamic Content**:
+    - **Hero Section**: Introduces me with a typewriter effect and social links.
+    - **About & Education**: Detailed timeline of my academic background.
+    - **Skills**: Visual progress bars representing my technical and soft skills.
+    - **Work In Progress Portfolio**: A placeholder section ready for future project showcases.
+- **Functional Contact Form**: Integrated with **Formspree** to receive emails directly.
+- **Downloadable resources**: Direct links to download my CV in a new tab.
 
-- HTML5
-- CSS3 (with CSS Variables for theming)
-- JavaScript (ES6+)
-- Font Awesome Icons
-- Google Fonts (Poppins & Playfair Display)
+## 🛠️ Technologies Used
 
-## Getting Started
+- **HTML5**: Semantic markup for structure.
+- **CSS3**: Custom styling with variables for easy theming (Vanilla CSS).
+- **JavaScript (ES6+)**: Logic for animations, form handling, and interactivity.
+- **Font Awesome**: Professional icons.
+- **Google Fonts**: Typography (Poppins & Playfair Display).
 
-### Prerequisites
+## 🚀 Deployment
 
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- (Optional) A local web server for development
+This project is configured for easy deployment on **Vercel**.
 
-### Installation
+### Quick Deploy
+1.  Install Vercel CLI (if not installed):
+    ```bash
+    npm install -g vercel
+    ```
+2.  Deploy from the root directory:
+    ```bash
+    npx vercel
+    ```
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/sapna-portfolio.git
-   cd sapna-portfolio
-   ```
+### Configuration
+A `vercel.json` file is included to ensure correct routing and static file serving.
 
-2. Open `index.html` in your web browser.
+## 📂 Project Structure
 
-## Customization
-
-### Changing Profile Information
-
-Edit the `index.html` file to update:
-- Personal information in the About section
-- Education details
-- Work experience
-- Skills and proficiency levels
-- Portfolio projects
-- Contact information
-
-### Changing Colors and Styling
-
-Edit the CSS variables in the `:root` selector at the top of the `css/styles.css` file to change the color scheme:
-
-```css
-:root {
-    --primary-color: #8A4FFF;
-    --secondary-color: #FF6B9C;
-    --accent-color: #4FC3F7;
-    --text-dark: #333333;
-    --text-light: #666666;
-    --light-bg: #F9F7FE;
-    --white: #FFFFFF;
-    /* ... other variables ... */
-}
+```
+SK_Portfolio/
+├── assets/          # Images (profile pic, shapes, etc.)
+├── css/
+│   └── styles.css   # Main stylesheet
+├── js/
+│   └── main.js      # Main JavaScript file
+├── index.html       # Primary HTML file
+├── vercel.json      # Deployment config
+└── README.md        # Documentation
 ```
 
-### Adding Portfolio Items
+## 📬 Contact
 
-To add a new portfolio item, copy and paste the following HTML structure inside the `.portfolio-grid` div:
+Feel free to reach out to me for collaborations or just a friendly hello!
 
-```html
-<div class="portfolio-item" data-category="design">
-    <div class="portfolio-img">
-        <img src="assets/portfolio/your-image.jpg" alt="Project Title">
-        <div class="portfolio-overlay">
-            <div class="portfolio-links">
-                <a href="#" class="portfolio-link" title="View Project">
-                    <i class="fas fa-link"></i>
-                </a>
-                <a href="assets/portfolio/your-image.jpg" class="portfolio-preview" data-lightbox="portfolio" title="Project Title">
-                    <i class="fas fa-search"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-info">
-        <h3>Project Title</h3>
-        <p>Project Category</p>
-        <span class="portfolio-tag">Tag</span>
-    </div>
-</div>
-```
-
-## Adding Your Own Images
-
-1. Place your profile picture in the `assets` folder as `profile-pic.jpg`
-2. Add portfolio project images to the `assets/portfolio` folder
-3. Update the image paths in the HTML file accordingly
-
-## Browser Support
-
-This website is built to work on all modern browsers including:
-- Google Chrome (latest)
-- Mozilla Firefox (latest)
-- Safari (latest)
-- Microsoft Edge (latest)
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Contact
-
-For any questions or feedback, please contact [Your Email].
+- **Email**: [sapnakofficial061@gmail.com](mailto:sapnakofficial061@gmail.com)
+- **LinkedIn**: [Sapna Kumari](https://www.linkedin.com/in/sapna-k-670684399)
 
 ---
-
-*This portfolio template was created with ❤️ by [Your Name].*
+*© 2024 Sapna Kumari. All Rights Reserved.*
