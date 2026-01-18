@@ -2,7 +2,7 @@
 
 Welcome to the official repository for **Sapna Kumari's Personal Portfolio**. This website showcases my journey as an aspiring Marketing & Sales Professional, highlighting my education, skills, and creative work.
 
-## 🌟 Features
+## 🌟 Features 
 
 - **Responsive Design**: customized for a seamless experience on Desktops, Tablets, and Mobile devices.
 - **Interactive UI**: Smooth scrolling, hover effects, and animated elements.
